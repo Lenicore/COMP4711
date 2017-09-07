@@ -37,15 +37,15 @@ and open the template in the editor.
         $second->add_grade(50);
         $students['a456'] = $second;
         
-        $second = new Student();
-        $second->surname = "Zhang";
-        $second->first_name = "Lenic";
-        $second->add_email('home','lenic.zhang@gmail.com');
-        $second->add_email('work1','lzhang173@bcit.ca');
-        $second->add_email('work2','lenic.zhang@outlook.com');
-        $second->add_grade(99);
-        $second->add_grade(99);
-        $second->add_grade(99);
+        $third = new Student();
+        $third->surname = "Zhang";
+        $third->first_name = "Lenic";
+        $third->add_email('home','lenic.zhang@gmail.com');
+        $third->add_email('work1','lzhang173@bcit.ca');
+        $third->add_email('work2','lenic.zhang@outlook.com');
+        $third->add_grade(99);
+        $third->add_grade(99);
+        $third->add_grade(99);
         $students['l233'] = $third;
         
         ksort($students); // one of the many sort functions
